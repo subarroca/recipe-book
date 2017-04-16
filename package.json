@@ -1,0 +1,36 @@
+{
+  "name": "recipe-book-server",
+  "version": "0.0.0",
+  "description": "Server for the recipe book app",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack && node dist/bundle.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subarroca/recipe-book.git"
+  },
+  "author": "Salvador Subarroca <subarroca@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subarroca/recipe-book/issues"
+  },
+  "homepage": "https://github.com/subarroca/recipe-book#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "debug": "^2.6.3",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.3",
+    "@types/debug": "0.0.29",
+    "@types/express": "^4.0.35",
+    "@types/morgan": "^1.7.32",
+    "source-map-loader": "^0.2.1",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "webpack": "^2.4.1"
+  }
+}
